@@ -1,0 +1,114 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 10:25:48  August 20, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		copia_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE10E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY copia
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:25:48  AUGUST 20, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_112 -to LCD_DATA[7]
+set_location_assignment PIN_111 -to LCD_DATA[6]
+set_location_assignment PIN_110 -to LCD_DATA[5]
+set_location_assignment PIN_106 -to LCD_DATA[4]
+set_location_assignment PIN_105 -to LCD_DATA[3]
+set_location_assignment PIN_104 -to LCD_DATA[2]
+set_location_assignment PIN_103 -to LCD_DATA[1]
+set_location_assignment PIN_101 -to LCD_DATA[0]
+set_location_assignment PIN_100 -to LCD_EN
+set_location_assignment PIN_85 -to LCD_RS
+set_location_assignment PIN_99 -to LCD_RW
+set_location_assignment PIN_52 -to SCL
+set_location_assignment PIN_51 -to SDA
+set_location_assignment PIN_58 -to _rst
+set_location_assignment PIN_23 -to clk
+set_location_assignment PIN_43 -to col[3]
+set_location_assignment PIN_42 -to col[2]
+set_location_assignment PIN_38 -to col[1]
+set_location_assignment PIN_39 -to col[0]
+set_location_assignment PIN_88 -to echo
+set_location_assignment PIN_33 -to fil[3]
+set_location_assignment PIN_34 -to fil[2]
+set_location_assignment PIN_31 -to fil[1]
+set_location_assignment PIN_32 -to fil[0]
+set_location_assignment PIN_30 -to pwm
+set_location_assignment PIN_28 -to trigg
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name VERILOG_FILE ../intentosUS/clase/clase.v
+set_global_assignment -name VERILOG_FILE ../PROYECTO/output_files/convteclado.v
+set_global_assignment -name VERILOG_FILE ../PROYECTO/output_files/barrido.v
+set_global_assignment -name VERILOG_FILE ../Sumar/divfreq.v
+set_global_assignment -name VERILOG_FILE ../Tutoria/Reset_Delay.v
+set_global_assignment -name VERILOG_FILE ../Tutoria/LCD_Top.v
+set_global_assignment -name VERILOG_FILE ../Tutoria/LCD_TEST.v
+set_global_assignment -name VERILOG_FILE ../Tutoria/LCD_Controller.v
+set_global_assignment -name VERILOG_FILE ../bh1750_driver/pwm1.v
+set_global_assignment -name VERILOG_FILE ../bh1750_driver/led.v
+set_global_assignment -name VERILOG_FILE ../bh1750_driver/bh1750_driver.v
+set_global_assignment -name VERILOG_FILE ../bh1750_driver/bh1750.v
+set_global_assignment -name VERILOG_FILE copia.v
+set_location_assignment PIN_72 -to le[0]
+set_location_assignment PIN_73 -to le[1]
+set_location_assignment PIN_74 -to le[2]
+set_location_assignment PIN_83 -to le[4]
+set_location_assignment PIN_80 -to le[3]
+set_location_assignment PIN_84 -to le[5]
+set_location_assignment PIN_77 -to le[6]
+set_location_assignment PIN_76 -to le[7]
+set_location_assignment PIN_75 -to le[8]
+set_location_assignment PIN_71 -to le[9]
+set_global_assignment -name VERILOG_FILE output_files/led0.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

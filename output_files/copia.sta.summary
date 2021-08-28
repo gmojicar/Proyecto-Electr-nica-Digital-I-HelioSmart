@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -62.585
+TNS   : -2265.561
+
+Type  : Slow 1200mV 85C Model Setup 'bh1750:U0|clk_iic'
+Slack : -4.645
+TNS   : -156.250
+
+Type  : Slow 1200mV 85C Model Setup 'divfreq:q|clk1hz'
+Slack : -4.598
+TNS   : -34.658
+
+Type  : Slow 1200mV 85C Model Setup 'col[0]'
+Slack : -4.578
+TNS   : -17.128
+
+Type  : Slow 1200mV 85C Model Setup 'mensaje1[0]'
+Slack : -2.360
+TNS   : -14.143
+
+Type  : Slow 1200mV 85C Model Setup 'bh1750:U0|state.stop'
+Slack : -0.171
+TNS   : -0.484
+
+Type  : Slow 1200mV 85C Model Hold 'bh1750:U0|clk_iic'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divfreq:q|clk1hz'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'bh1750:U0|state.stop'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mensaje1[0]'
+Slack : 1.134
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'col[0]'
+Slack : 1.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -1.309
+TNS   : -57.358
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.188
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -304.861
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'col[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'bh1750:U0|clk_iic'
+Slack : -1.487
+TNS   : -84.759
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divfreq:q|clk1hz'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'bh1750:U0|state.stop'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mensaje1[0]'
+Slack : 0.285
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -56.784
+TNS   : -2073.624
+
+Type  : Slow 1200mV 0C Model Setup 'col[0]'
+Slack : -4.509
+TNS   : -17.161
+
+Type  : Slow 1200mV 0C Model Setup 'bh1750:U0|clk_iic'
+Slack : -4.383
+TNS   : -142.599
+
+Type  : Slow 1200mV 0C Model Setup 'divfreq:q|clk1hz'
+Slack : -4.140
+TNS   : -30.690
+
+Type  : Slow 1200mV 0C Model Setup 'mensaje1[0]'
+Slack : -2.242
+TNS   : -13.327
+
+Type  : Slow 1200mV 0C Model Setup 'bh1750:U0|state.stop'
+Slack : -0.058
+TNS   : -0.147
+
+Type  : Slow 1200mV 0C Model Hold 'bh1750:U0|clk_iic'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divfreq:q|clk1hz'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'bh1750:U0|state.stop'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mensaje1[0]'
+Slack : 0.870
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'col[0]'
+Slack : 1.605
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -1.161
+TNS   : -49.944
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.045
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -304.861
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'col[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'bh1750:U0|clk_iic'
+Slack : -1.487
+TNS   : -84.759
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divfreq:q|clk1hz'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'bh1750:U0|state.stop'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mensaje1[0]'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -27.247
+TNS   : -865.782
+
+Type  : Fast 1200mV 0C Model Setup 'divfreq:q|clk1hz'
+Slack : -2.233
+TNS   : -13.941
+
+Type  : Fast 1200mV 0C Model Setup 'bh1750:U0|clk_iic'
+Slack : -1.512
+TNS   : -37.528
+
+Type  : Fast 1200mV 0C Model Setup 'mensaje1[0]'
+Slack : -1.079
+TNS   : -5.817
+
+Type  : Fast 1200mV 0C Model Setup 'col[0]'
+Slack : -1.070
+TNS   : -3.824
+
+Type  : Fast 1200mV 0C Model Setup 'bh1750:U0|state.stop'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'bh1750:U0|clk_iic'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divfreq:q|clk1hz'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'bh1750:U0|state.stop'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'col[0]'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mensaje1[0]'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.070
+TNS   : -1.459
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -219.359
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'col[0]'
+Slack : -3.000
+TNS   : -3.362
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'bh1750:U0|clk_iic'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divfreq:q|clk1hz'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'bh1750:U0|state.stop'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mensaje1[0]'
+Slack : 0.324
+TNS   : 0.000
+
+------------------------------------------------------------

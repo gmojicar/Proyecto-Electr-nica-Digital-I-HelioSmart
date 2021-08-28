@@ -1,0 +1,38 @@
+
+State Machine - |copia|modo
+Name modo.0000 modo.manual modo.auto 
+modo.0000 0 0 0 
+modo.auto 1 0 1 
+modo.manual 1 1 0 
+
+State Machine - |copia|vari
+Name vari.11 vari.01 vari.10 
+vari.01 0 0 0 
+vari.10 0 1 1 
+vari.11 1 1 0 
+
+State Machine - |copia|LCD_Top:comb_77|LCD_TEST:u5|mLCD_ST
+Name mLCD_ST.000011 mLCD_ST.000010 mLCD_ST.000001 mLCD_ST.000000 
+mLCD_ST.000000 0 0 0 0 
+mLCD_ST.000001 0 0 1 1 
+mLCD_ST.000010 0 1 0 1 
+mLCD_ST.000011 1 0 0 1 
+
+State Machine - |copia|LCD_Top:comb_77|LCD_TEST:u5|LCD_Controller:u0|ST
+Name ST.11 ST.10 ST.01 ST.00 
+ST.00 0 0 0 0 
+ST.01 0 0 1 1 
+ST.10 0 1 0 1 
+ST.11 1 0 0 1 
+
+State Machine - |copia|bh1750:U0|state
+Name state.NAck_2 state.R_data state.NAck_1 state.Ack_1 state.W_data state.Ack_0 state.Address state.0000 state.stop 
+state.0000 0 0 0 0 0 0 0 0 0 
+state.Address 0 0 0 0 0 0 1 1 0 
+state.Ack_0 0 0 0 0 0 1 0 1 0 
+state.W_data 0 0 0 0 1 0 0 1 0 
+state.Ack_1 0 0 0 1 0 0 0 1 0 
+state.NAck_1 0 0 1 0 0 0 0 1 0 
+state.R_data 0 1 0 0 0 0 0 1 0 
+state.NAck_2 1 0 0 0 0 0 0 1 0 
+state.stop 0 0 0 0 0 0 0 1 1 
