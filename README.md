@@ -7,5 +7,5 @@ El proyecto fue desarrollado por James Mauricio Daza Obando, Cristian David Vale
 ## Funcionamiento en modo automático:<br />
 ![GIFAuto ‐ Made with Clipchamp](https://user-images.githubusercontent.com/60418323/131251132-2097b6d7-62b6-4054-9ec4-e9399abf7b21.gif)<br />
 ## Funcionamiento en modo manual:<br />
-![GIFManual ‐ Made with Clipchamp (1)](https://user-images.githubusercontent.com/60418323/131255724-96cebfd7-1c1b-44c5-a2dd-10210666c33a.gif)
-
+![GIFManual ‐ Made with Clipchamp (1)](https://user-images.githubusercontent.com/60418323/131255724-96cebfd7-1c1b-44c5-a2dd-10210666c33a.gif)<br />
+A continuación el link al video que describe el funcionamiento completo del proyecto: https://youtu.be/Z3z_GVN6HUU
