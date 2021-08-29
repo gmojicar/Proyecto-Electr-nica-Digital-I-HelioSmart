@@ -3,7 +3,7 @@ module copia(clk, pwm, fil, col, trigg, echo, LCD_RW, LCD_EN, LCD_RS, LCD_DATA, 
 output wire[9:0] le;
 input clk;
 output pwm;
-reg [3:0] numt; //Provisional
+reg [3:0] numt;
 //_______________________________v. de ultrasonido_________________________________//
 output trigg;
 input echo;
