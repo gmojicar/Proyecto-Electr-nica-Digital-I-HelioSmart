@@ -1,4 +1,4 @@
-module LCD_Top_(
+module LCD_Top(
                 CLOCK_50,  //50 MZ
                  LCD_RW,   //LCD Read/Write Select, 0 = Write, 1 = Read
                  LCD_EN,   //LCD Enable
