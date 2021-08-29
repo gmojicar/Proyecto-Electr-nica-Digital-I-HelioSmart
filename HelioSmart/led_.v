@@ -1,4 +1,4 @@
-module led_(mode, sys_clk, pwm, parametro, parametromanual, distancia);
+module led(mode, sys_clk, pwm, parametro, parametromanual, distancia);
 
 input [9:0] distancia;
 input[15:0] parametro;
